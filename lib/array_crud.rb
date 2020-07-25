@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   numbers = [10,20,30,40]
-  numbers <<50
+  numbers.push(50)
 end
 
 def add_element_to_start_of_array(array, element)
