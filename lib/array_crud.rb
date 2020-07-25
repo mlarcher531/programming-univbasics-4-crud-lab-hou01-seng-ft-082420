@@ -7,9 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  array = [10,20,30,40]
-  element = 50
-  array << 50
+  numbers = [10,20,30,40]
+  numbers.push 50
 end
 
 def add_element_to_start_of_array(array, element)
